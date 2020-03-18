@@ -1,1 +1,216 @@
+
 /* You can add global styles to this file, and also import other style files */
+body,
+html
+{
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+  background-color : white;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+
+
+}
+/*To remove the space beetwen the navBar and component*/
+body {
+padding-top: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+*:focus {
+outline: none!important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 MARGIN                                     */
+/* -------------------------------------------------------------------------- */
+@media(max-width:2199px){
+.padding-top-30 {
+  padding-top : 30px;
+}
+.margin-top-100 {
+  margin-top : 100px;
+  }
+}
+.margin-top-30 {
+  margin-top : 30px;
+  }
+
+
+@media(max-width:769px){
+  .padding-top-30 {
+    padding-top : 20px;
+  }
+  .margin-top-100 {
+    margin-top : 50px;
+    }
+    .margin-top-30 {
+      margin-top : 10px;
+      }
+      .margin-top-mobile
+    {
+      margin-top : 50px;
+
+    }
+  
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 TEXTES                                      */
+/* -------------------------------------------------------------------------- */
+
+h1 {
+    margin :0;
+    padding : 25px 0;
+    font-weight: normal;
+    font-size: 1.7em;
+  }
+  h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+   h2 {
+    width: auto;
+    padding: 0px!important;
+    font-size:6vw!important;
+    font-weight:400!important;
+    line-height:1.2!important;
+    letter-spacing:-.1px!important;
+    margin-bottom:.5em!important;
+    position: relative;
+    margin-top:.5em !important;
+  
+  }
+  
+  p {
+    font-size: 4vw;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: -.1px;
+    width: 100%;
+    margin-top: 1em;
+  }
+  .smallp {
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 4vw;
+  
+  
+  }
+  
+  @media (min-width: 47.5em){
+    .smallp {
+       font-size: 1.3vw;
+       width: auto;
+   }}
+  @media (min-width: 47.5em){
+    h2 {
+      font-size: 3vw!important;
+      margin-bottom:0.8em!important;
+    }}
+  
+    @media (min-width: 47.5em){
+      .tiret:after {
+    display: block;    
+  }}
+    
+   
+   @media (min-width: 47.5em){
+    p {
+      font-size:1.5vw;
+       width: auto;
+   }}
+  
+  
+  .block-title{
+    font-size : 16px;
+    line-height: 23px;
+    padding-bottom: 20px;
+  }
+  
+  span 
+  {
+    font-size : 1.2em;
+    
+  }
+  .center {
+    display: inline-block;
+    margin: 0;
+    max-width: 90%;
+    vertical-align: middle;
+  }
+  
+  
+  .light {
+      font-weight: 300;
+    }
+    .regular {
+      font-weight: 400;
+    }
+    .bold {
+      font-weight: 700;
+    }
+    .black {
+      font-weight: 900;
+    }
+    .txt-right {
+      text-align: right;
+    }
+    .txt-center {
+      text-align: center;
+    }
+    .txt-justify {
+      text-align: justify;
+    }
+    .trait {
+      border :1px solid #232323;
+    }
+
+    /*Couleur 
+    
+    */
+
+
+
+/* You can add global styles to this file, and also import other style files */
+.colorGreen {
+    background-color: #d5ddae;
+
+}
+
+.colorRose {
+    background-color: #ffeee3;
+}
+
+.colorBlue {
+    background-color: #c4d2d8;
+}
+.colorLight {
+    background-color: #fff7e3;
+}
+.colorPurple {
+    background-color: #b0aac2;
+}
+
+.rose {
+    background-color: #FAC1C1;
+}
+
+.backWhite{
+    background-color: white;
+}
+.white {
+    color : white!important;
+  }
+
+  .traitOrange {
+    border-top : 3px solid #f9c7a1;
+    width: 20%;
+    margin: auto;
+  
+  }
+  
